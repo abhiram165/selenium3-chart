@@ -185,7 +185,7 @@ chrome:
   replicas: 1
 
   ## When true will add a liveness check to the pod
-  enableLivenessProbe: false
+  enableLivenessProbe: true
 
   ## When true will wait for current running sessions to finish before terminating the pod
   waitForRunningSessions: false
