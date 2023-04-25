@@ -161,7 +161,7 @@ hub:
 
 chrome:
   ## Enable the creation of a node-chrome pod
-  enabled: false
+  enabled: true
 
   ## DaemonSet instead of Deployment
   runAsDaemonSet: false
